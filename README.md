@@ -2,6 +2,12 @@
 
 This script provides a simple Bash function to automate the creation and activation of Python virtual environments. By adding this function to your `.bashrc` file, you can streamline your workflow and easily manage virtual environments from the terminal.
 
+## Platform Compatibility
+
+- **Linux**: Fully supported.
+- **macOS**: May work; Not sure.
+- **Windows**: Not supported.
+
 ## Features
 
 - **Create and Activate Virtual Environments:** Automatically creates a new virtual environment if it doesn’t exist and activates it.
@@ -11,7 +17,7 @@ This script provides a simple Bash function to automate the creation and activat
 
 1. **Copy the Script into $HOME/.bashrc:**
 
-   Copy the ```bash script.sh``` into a file named `$HOME/.bashrc `:
+   Copy the content of `script.sh` into a file named `$HOME/.bashrc ` or `~/.bashrc`:
 
 
 2. **Save .bashrc file and exit then source .bashrc file:**
