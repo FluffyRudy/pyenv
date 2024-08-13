@@ -11,22 +11,8 @@ This script provides a simple Bash function to automate the creation and activat
 
 1. **Copy the Script into $HOME/.bashrc:**
 
-   Copy the following code into a file named `$HOME/.Copy `:
+   Copy the ```bash script.sh``` into a file named `$HOME/.bashrc `:
 
-   ```bash
-   #!/bin/bash
-
-   pyactivate() {
-     if [ -z "$1" ]; then
-      echo "Usage: <venv_name>"
-      return 1
-     fi
-     if [ ! -d "$1" ]; then
-      python3 -m venv "$1"
-      sleep 1
-     fi
-     source "$1/bin/activate"
-   }
 
 2. **Save .bashrc file and exit then source .bashrc file:**
     ```bash
